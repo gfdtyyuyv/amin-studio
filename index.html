@@ -51,17 +51,21 @@ AMIN STUDIO
 
 <nav>
 
-<a href="#home">Home</a>
+<a href="#home" id="nav-home">Home</a>
 
-<a href="#portfolio">Portfolio</a>
+<a href="#portfolio" id="nav-portfolio">Portfolio</a>
 
-<a href="#about">About</a>
+<a href="#about" id="nav-about">About</a>
 
-<a href="#services">Services</a>
+<a href="#services" id="nav-services">Services</a>
 
-<a href="#contact">Contact</a>
+<a href="#contact" id="nav-contact">Contact</a>
 
 </nav>
+
+<button id="lang-toggle" class="lang-btn">
+    فارسی
+</button>
 
 <div class="menu-toggle">
 
@@ -85,17 +89,13 @@ id="home">
 
 <div class="hero-content">
 
-<h1>
-
+<h1 id="hero-title">
 Architecture
-
 <br>
-
 Design Studio
-
 </h1>
 
-<p>
+<p id="hero-text">
 
 Modern Architecture
 
@@ -107,11 +107,8 @@ Visualization
 
 </p>
 
-<a href="#portfolio"
-class="btn">
-
+<a href="#portfolio" class="btn" id="hero-btn">
 View Projects
-
 </a>
 
 <div class="scroll-down">
@@ -133,8 +130,10 @@ View Projects
     <div class="container">
 
         <div class="section-title">
-            <h2>Featured Projects</h2>
-            <p>Selected architectural works designed with precision and creativity.</p>
+            <h2 id="portfolio-title">Featured Projects</h2>
+            <p id="portfolio-text">
+Selected architectural works designed with precision and creativity.
+</p>
         </div>
 
         <div class="portfolio-filter">
@@ -157,11 +156,11 @@ View Projects
 
     <div class="project-info">
 
-        <h3>Modern Villa</h3>
+        <h3 id="project1-title">Modern Villa</h3>
 
-        <p>Residential Design</p>
+       <p id="project1-type">Residential Design</p>
 
-        <a href="project1.html" class="btn">View Project</a>
+        <a href="project1.html" class="btn" id="view-btn1">View Project</a>
 
     </div>
 
@@ -172,11 +171,11 @@ View Projects
 
     <div class="project-info">
 
-        <h3>Luxury Interior</h3>
+        <h3 id="project2-title">Luxury Interior</h3>
 
-        <p>Interior Design</p>
+        <p id="project2-type">Interior Design</p>
 
-        <a href="project2.html" class="btn">View Project</a>
+        <a href="project2.html" class="btn" id="view-btn2">View Project</a>
 
     </div>
 
@@ -188,11 +187,11 @@ View Projects
 
     <div class="project-info">
 
-        <h3>Contemporary House</h3>
+        <h3 id="project3-title">Contemporary House</h3>
 
-        <p>Architecture</p>
+        <p id="project3-type">Architecture</p>
 
-        <a href="project3.html" class="btn">View Project</a>
+        <a href="project3.html" class="btn" id="view-btn3">View Project</a>
 
     </div>
 
@@ -204,11 +203,11 @@ View Projects
 
     <div class="project-info">
 
-        <h3>Office Building</h3>
+        <h3 id="project4-title">Office Building</h3>
 
-        <p>Commercial</p>
+        <p id="project4-type">Commercial</p>
 
-        <a href="project4.html" class="btn">View Project</a>
+        <a href="project4.html" class="btn" id="view-btn4">View Project</a>
 
     </div>
 
@@ -220,11 +219,11 @@ View Projects
 
     <div class="project-info">
 
-        <h3>Landscape Design</h3>
+        <h3 id="project5-title">Landscape Design</h3>
 
-        <p>Landscape</p>
+        <p id="project5-type">Landscape</p>
 
-        <a href="project5.html" class="btn">View Project</a>
+        <a href="project5.html" class="btn" id="view-btn5">View Project</a>
 
     </div>
 
@@ -236,11 +235,11 @@ View Projects
 
     <div class="project-info">
 
-        <h3>bim object </h3>
+        <h3 id="project6-title">bim object </h3>
 
-        <p>interior design</p>
+        <p id="project6-type">interior design </p>
 
-        <a href="project6.html" class="btn">View Project</a>
+        <a href="project6.html" class="btn" id="view-btn6">View Project</a>
 
     </div>
 
@@ -260,17 +259,21 @@ View Projects
 
         <div class="about-text">
 
-            <h2>About Me</h2>
+            <h2 id="about-title">About Me</h2>
 
-            <p>
+            <p id="about-text1">
                 I'm Amin Kaviani, an architecture student passionate about
                 modern architecture, BIM workflows and architectural visualization.
             </p>
 
-            <p>
+            <p id="about-text2">
                 I specialize in Revit modeling, architectural design and
                 realistic rendering.
             </p>
+
+            <a href="#contact" class="btn" id="about-btn">
+            Let's Work Together
+            </a>
 
             <div class="skills">
 
@@ -304,7 +307,7 @@ View Projects
 
 </div>
 
-            <a href="#contact" class="btn">Let's Work Together</a>
+        
 
         </div>
 
@@ -326,32 +329,42 @@ View Projects
 
         <div class="section-title">
 
-            <h2>Services</h2>
+            <h2 id="services-title">Services</h2>
 
-            <p>Professional architectural services for residential and commercial projects.</p>
+            <p id="services-text">
+            Professional architectural services for residential and commercial projects.
+            </p>
 
         </div>
 
         <div class="services-grid">
 
             <div class="service-box">
-                <h3>Architectural Design</h3>
-                <p>Modern residential and commercial architectural design.</p>
+                <h3 id="service1-title">Architectural Design</h3>
+                <p id="service1-text">
+                Modern residential and commercial architectural design.
+                </p>
             </div>
 
             <div class="service-box">
-                <h3>Interior Design</h3>
-                <p>Creative and functional interior spaces.</p>
+                <h3 id="service2-title">Interior Design</h3>
+                <p id="service2-text">
+                Creative and functional interior spaces.
+                </p>
             </div>
 
             <div class="service-box">
-                <h3>Revit Modeling</h3>
-                <p>Professional BIM modeling using Autodesk Revit.</p>
+                <h3 id="service3-title">Revit Modeling</h3>
+                <p id="service3-text">
+                Professional BIM modeling using Autodesk Revit.
+                </p>
             </div>
 
             <div class="service-box">
-                <h3>Rendering</h3>
-                <p>High-quality architectural visualization.</p>
+                <h3 id="service4-title">Rendering</h3>
+                <p id="service4-text">
+                High-quality architectural visualization.
+                </p>
             </div>
 
         </div>
@@ -370,7 +383,7 @@ View Projects
 
 <h2>12+</h2>
 
-<p>Completed Projects</p>
+<p id="stat1">Completed Projects</p>
 
 </div>
 
@@ -378,7 +391,7 @@ View Projects
 
 <h2>2+</h2>
 
-<p>Years Learning</p>
+<p id="stat2">Years Learning</p>
 
 </div>
 
@@ -386,7 +399,7 @@ View Projects
 
 <h2>100%</h2>
 
-<p>Revit Modeling</p>
+<p id="stat3">Revit Modeling</p>
 
 </div>
 
@@ -394,7 +407,7 @@ View Projects
 
 <h2>24h</h2>
 
-<p>Response Time</p>
+<p id="stat4">Response Time</p>
 
 </div>
 
@@ -412,9 +425,9 @@ View Projects
 
         <div class="section-title">
 
-            <h2>Contact</h2>
+            <h2 id="contact-title">Contact</h2>
 
-            <p>Let's build something great together.</p>
+            <p id="contact-text">Let's build something great together.</p>
 
         </div>
 
@@ -439,24 +452,13 @@ View Projects
 
         <form action="https://formspree.io/f/xaqgvgnk" method="POST">
 
-<input
-type="text"
-name="name"
-placeholder="Your Name"
-required>
+<input type="text" id="name-input" placeholder="Your Name">
 
-<input
-type="email"
-name="email"
-placeholder="Your Email"
-required>
+<input type="email" id="email-input" placeholder="Your Email">
 
-<textarea
-name="message"
-placeholder="Your Message"
-required></textarea>
+<textarea id="message-input" placeholder="Your Message"></textarea>
 
-            <button type="submit">Send Message</button>
+           <button type="submit" id="send-btn">Send Message</button>
 
         </form>
 
@@ -470,7 +472,9 @@ required></textarea>
 
 <h3>AMIN STUDIO</h3>
 
-<p>Architecture • Interior Design • BIM • Revit</p>
+<p id="footer-text">
+Architecture • Interior Design • BIM • Revit
+</p>
 
 <div class="social-links">
 
@@ -484,12 +488,13 @@ required></textarea>
 
 </div>
 
-<p>© 2026 AMIN STUDIO. All Rights Reserved.</p>
+<p id="footer-copy">© 2026 All Rights Reserved.</p>
 
 </div>
 
 </footer>
 
+<script src="translations.js"></script>
 <script src="script.js"></script>
 
 </body>
